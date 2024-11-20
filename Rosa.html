@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosa</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<div class="header">
+  <header>
+    <a href="Website.html" >
+      <img src="Karendalogo.png" alt="Karenda Labradors Logo">
+  </a>
+      <nav class="navman">  
+        
+        <ul class="sidebar">  
+          <li onclick=hideSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </a> <li>
+          <li> <a href="Website.html" class="button2">Home </a><li>
+          <li> <a href="Females land page.html" class="button2" > Females </a> <li>
+          <li> <a href="males.html" class="button2" > Males </a> <li>
+          <li> <a href="puppies.html" class="button2" > Puppies </a> <li>
+      </ul>
+          <ul>
+              <li class="hideOnMobile"> <a href="Website.html" class="button" >Home </a><li>
+              <li class="hideOnMobile" > <a href="Females land page.html" class="button" > Females </a> <li>
+              <li class="hideOnMobile" > <a href="males.html" class="button" > Males </a> <li>
+              <li class="hideOnMobile"> <a href="puppies.html" class="button" > Puppies </a> <li>
+              <li class="menu-button" onclick=showSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a> </li>  
+          </ul>
+      </nav>
+      </div>
+
+  </header>
+</div> 
+
+<body class="dogbody">
+<div class="dogpage">
+
+     <div class="dogsection">
+        <section class="doginfo">
+        <h1> Karenda Trifecta "Rosa" </h1>
+
+        <span><b>D.O.B:</b> 01/06/24 <b>Hips:</b> TBC <b>Elbows:</b> TBC <b>DNA:</b> Clear by parentage</span>
+        
+        <p class="dogpagetext"> 
+        We Are pleased to Introduce Karenda's first puppy Rosa.
+        Photo taken at 5 weeks of age.
+        </p>
+    
+        </section>
+    </div>
+        <img class="perryhp" src="images/rosa.jpg" alt="Rosa 5 weeks old">
+
+
+   
+
+    <div class="table">
+
+        <h1 class="pedigreetitle">Pedigree for Karenda Trifecta</h1>
+
+        <section class="pedigree">
+            
+            <table class="tabl">
+                <thead>
+                  <tr>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="4" style="width:34%;"><b>Sire:</b> Ch. Eraky Leading Edge (AI) </td>
+                    <td rowspan="2" style="width:33%;"><b>S:</b>    Ch. Eraky The Opener </td>
+                    <td style="width:33%;"><b>S:</b>                Driftway Blueprint </td>
+                  </tr>
+                  <tr>
+                    <td><b>D:</b>                                   Ch. Eraky Enchanting  </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"><b>D:</b>                       Ch. Eraky Kaleidoscope </td>
+                    <td><b>S:</b>                                   Ch. Tapeatom Easy Rider (IMP NDL)</td>
+                  </tr>
+                  <tr>
+                    <td><b>D:</b>                                   Ch. Eraky Illusion </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4"><b>Dam:</b>                     Labraddell Miss Dreamer </td>
+                    <td rowspan="2"><b>S:</b>                       Eraky Dirty Harry </td>
+                    <td><b>S:</b>                                   Ch. Tapeatom Easy Rider (IMP NDL) </td>
+                  </tr>
+                  <tr>
+                    <td><b>D:</b>                                   Ch. Earky Movie Star </td>
+                  </tr> 
+                  <tr>
+                    <td rowspan="2"><b>D:</b>                       Ch. Tapeatom Miss Perfect </td>
+                    <td><b>S:</b>                                   Sth Af. Ch. Taleem Great Expectations At Tapeatom </td>
+                  </tr>
+                  <tr>
+                    <td><b>D:</b>                                  Eraky Clarity </td>
+                  </tr>
+                </tbody>
+              </table>
+
+         </section>
+
+    </div>
+
+
+
+    
+</div>
+<script>
+  function showSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'flex'
+  }
+  function hideSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'none'
+  }
+  
+  
+    </script>
+</body>
+    
+
+
+</html>
