@@ -4,7 +4,7 @@
 }
 body {
     background-color: white;
-    margin: 10px 50px 0 50px
+    margin: 2% 5% 10% 5%;
 }
 body > main {
     align-items: center;
@@ -450,8 +450,9 @@ width: 100%;
 
 @media(max-width: 600px){
   .body{
-    margin: 0;
-    font-size: calc(0.625vmin + 12px)
+    margin: 0 0 0 0 !important;
+    font-size: calc(0.625vmin + 12px);
+    position: fixed;
 
   }
   
@@ -477,9 +478,9 @@ width: 100%;
 
   .body{
     min-width: 100%;
-    margin: none;
+    margin: 0 0 0 0 !important;
+   
   }
-
   .sidebar{
     width: 60%;
   }
