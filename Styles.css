@@ -449,10 +449,7 @@ width: 100%;
 
 
 @media(max-width: 600px){
-  .body{
-    margin: 0 0 0 0 !important;
-    font-size: calc(0.625vmin + 12px);
-    position: fixed;
+ 
 
   }
   
@@ -476,9 +473,6 @@ width: 100%;
 }
 @media(max-width: 400px){
 
-  .body{
-    min-width: 100%;
-    margin: 0 0 0 0 !important;
    
   }
   .sidebar{
