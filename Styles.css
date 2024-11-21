@@ -58,6 +58,7 @@ section {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  padding: 0 0 25px 0;
   
 }
 
@@ -72,7 +73,7 @@ justify-content: center;
     border-radius: 0.6rem;
     max-height: 300px;
     aspect-ratio: 5/3 auto;
-    padding: 25px 0 0 0 
+    padding: 0px 0 0 0 
     
 }
 
@@ -94,7 +95,11 @@ ul > li{
     
     
 }
-
+.femaleh1{
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 30px 0;
+}
 .female_ul{
   justify-content: center;
   flex-direction: row;
@@ -222,7 +227,6 @@ a > H3 {
 
 .pedigree{
   display: flex;
-  justify-content: start;
   flex-direction: row;
   overflow-x: auto;
   overflow-y: hidden;
@@ -232,7 +236,9 @@ a > H3 {
 }
 .pedigreetitle{
   display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .table{
@@ -443,6 +449,12 @@ width: 100%;
 
 
 @media(max-width: 600px){
+  .body{
+    margin: 0;
+    font-size: calc(0.625vmin + 12px)
+
+  }
+  
   .hideOnMobile{
     display: none;
   }
@@ -462,6 +474,12 @@ width: 100%;
   }
 }
 @media(max-width: 400px){
+
+  .body{
+    min-width: 100%;
+    margin: none;
+  }
+
   .sidebar{
     width: 60%;
   }
