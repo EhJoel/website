@@ -58,7 +58,7 @@ section {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 0 0 25px 0;
+  padding: 25px 0 25px 0;
   
 }
 
@@ -71,10 +71,22 @@ justify-content: center;
 
 .perryhp{
     border-radius: 0.6rem;
-    max-height: 300px;
-    aspect-ratio: 5/3 auto;
-    padding: 0px 0 0 0 
-    
+    max-width: 500px;
+    width: 100%;
+    object-fit: contain;
+    margin: 10px 10px 10px 10px;
+}
+
+.picexp{
+  border-radius: 0.6rem;
+  max-width: 500px;
+  width: 100%;
+  object-fit: contain;
+  margin: 25px;
+}
+
+.plannedmargin{
+  margin: 2%;
 }
 
 main {
@@ -108,6 +120,42 @@ ul > li{
   gap: 3rem;
   flex-wrap: wrap;
   
+}
+
+.puppydiv1 {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10px 0 10px 0;
+  border-bottom: solid lightgray 3px;
+  border-top: solid lightgray 1px;
+  border-radius: 1rem;
+  background-color: #faf9f6;
+  margin: 50px 0 0 0;
+  max-width: 900px;
+}
+.puppydiv2{
+  display: none;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0 10px 0;
+  border-bottom: solid lightgray 3px;
+  border-top: solid lightgray 1px;
+  border-radius: 1rem;
+  background-color: #faf9f6;
+  margin: 50px 0 0 0;
+}
+.puppydiv3{
+  display: none;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0 10px 0;
+  border-bottom: solid lightgray 3px;
+  border-top: solid lightgray 1px;
+  border-radius: 1rem;
+  background-color: #faf9f6;
+  margin: 50px 0 0 0;
 }
 
 a > H3 {
@@ -149,6 +197,32 @@ a > H3 {
   padding: 20px;
   
   
+ }
+
+ .puppyul{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 50px 10px 0 10px;
+
+ }
+ .puppyul > l{
+  padding: 10px;
+ }
+
+ .button3{
+  border: solid black 2px;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  color: black;
+  padding: 30px 50px;
+  
+ }
+ 
+ 
+ .button3:hover {
+   transform: scale(1.25);
+   transition: 0.3s;
  }
  
 
@@ -322,7 +396,7 @@ width: 100%;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 48px;
+  padding:  10px 48px 48px 48px;
 }
 
 .formbold-form-wrapper {
@@ -445,13 +519,56 @@ width: 100%;
 
 
 
+.gallery {
+  border: 2x solid #ccc;
+  border-radius: 0.6rem;
+}
 
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 @media(max-width: 600px){
  
 
-  }
+  
   
   .hideOnMobile{
     display: none;
@@ -460,6 +577,9 @@ width: 100%;
     display: block;
   }
   .perryhp{
+    max-width: 290px;
+  } 
+  .picexp{
     max-width: 290px;
   }
   .photofix{
