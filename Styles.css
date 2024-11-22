@@ -137,14 +137,15 @@ ul > li{
 }
 .puppydiv2{
   display: none;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   align-content: center;
   padding: 10px 0 10px 0;
   border-bottom: solid lightgray 3px;
   border-top: solid lightgray 1px;
   border-radius: 1rem;
   background-color: #faf9f6;
-  margin: 50px 0 0 0;
+  margin: 50px 0 50px 0;
 }
 .puppydiv3{
   display: none;
@@ -211,11 +212,18 @@ a > H3 {
  }
 
  .button3{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
   border: solid black 2px;
   border-radius: 0.6rem;
   text-decoration: none;
   color: black;
   padding: 30px 50px;
+  margin: 10px 10px 0 10px;
+  max-width: 235px;
+  min-width: 234px;
+  max-height: 83px;
   
  }
  
@@ -527,9 +535,12 @@ width: 100%;
 
 
 .gallery img {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
   border-radius: 0.6rem;
+  margin-top: 5%;
 }
 
 .desc {
@@ -540,8 +551,10 @@ width: 100%;
 
 
 .responsive {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   padding: 0 6px;
-  float: left;
   width: 24.99999%;
 }
 
@@ -569,7 +582,9 @@ width: 100%;
  
 
   
-  
+  .puppyul{
+    flex-direction: column;
+  }
   .hideOnMobile{
     display: none;
   }
