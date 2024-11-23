@@ -229,7 +229,7 @@ a > H3 {
  
  
  .button3:hover {
-   transform: scale(1.25);
+   transform: scale(1.1);
    transition: 0.3s;
  }
  
@@ -584,6 +584,9 @@ width: 100%;
   
   .puppyul{
     flex-direction: column;
+  }
+  .button3{
+    padding: 10px
   }
   .hideOnMobile{
     display: none;
