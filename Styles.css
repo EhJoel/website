@@ -1,5 +1,5 @@
 *{
-
+    box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 body {
@@ -285,7 +285,7 @@ a > H3 {
   flex-direction: row;
   gap: 50px;
   margin-top: 75px;
- max-width: 1650px;
+ max-width: 1300px;
   
  
 }
@@ -308,14 +308,12 @@ a > H3 {
 }
 
 .pedigree{
-  display: flex;
-  flex-direction: row;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  min-width: 400px;
-  
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  overflow: auto;
+  white-space: nowrap; 
 }
+
 .pedigreetitle{
   display: flex;
   justify-content: center;
@@ -324,11 +322,17 @@ a > H3 {
 }
 
 .table{
-  display: flex; 
   flex-direction: column;
   min-width:100%;
   margin-bottom: 15px;
   justify-content: center;
+}
+.overflowfix{
+  flex-direction: column;
+  min-width:100%;
+  margin-bottom: 15px;
+  justify-content: center;
+  overflow: hidden;
 }
 .photofix{
   display:flex;
@@ -581,7 +585,9 @@ width: 100%;
 @media(max-width: 600px){
  
 
-  
+  .pedigree{
+    justify-content: flex-start;
+  }
   .puppyul{
     flex-direction: column;
   }
