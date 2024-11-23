@@ -113,8 +113,8 @@
                   <div class="clearfix"></div>
                   
                   
-                  </body>
-                  </html>
+                
+                
 
             </div>
 
@@ -132,7 +132,7 @@
                             
                               <div>
                                 
-                                  <label for="firstname" class="formbold-form-label"> First name </label>
+                                  <label for="firstname" class="formbold-form-label"> <b class="black"> First name </b></label>
                                   <input
                                   type="text"
                                   name="firstname"
@@ -142,39 +142,42 @@
                                   />
                               </div>
                               <div>
-                                  <label for="lastname" class="formbold-form-label"> Last name </label>
+                                  <label for="lastname" class="formbold-form-label"> <b class="black"> Last name </b> </label>
                                   <input
                                   type="text"
                                   name="lastname"
                                   id="lastname"
                                   class="formbold-form-input"
+                                  required
                                   />
                               </div>
                             </div>
                     
-                            <div class="formbold-input-flex">
+                            <div class="formbold-input-flex2">
                               <div>
-                                  <label for="email" class="formbold-form-label"> Mail </label>
+                                  <label for="email" class="formbold-form-label"> <b class="black"> Email </b></label>
                                   <input
                                   type="email"
                                   name="email"
                                   id="email"
                                   class="formbold-form-input"
+                                  required
                                   />
                               </div>
                               <div>
-                                  <label for="phone" class="formbold-form-label"> Phone </label>
+                                  <label for="phone" class="formbold-form-label"> <b class="black"> Phone </b> </label>
                                   <input
                                   type="text"
                                   name="phone"
                                   id="phone"
                                   class="formbold-form-input"
+                                  required
                                   />
                               </div>
                             </div>
                     
                             <div class="formbold-input-radio-wrapper">
-                                <label class="formbold-form-label"> When will you be ready for a puppy? </label>
+                                <label class="formbold-form-label"> <b class="black"> When will you be ready for a puppy?</b> </label>
                     
                                 <div class="formbold-radio-flex">
                                   <div class="formbold-radio-group">
@@ -213,33 +216,36 @@
                                 </div>
                             </div>
                             
-                            <!-- <div class="formbold-input-radio-wrapper">
-                              <label for="jobtitle" class="formbold-form-label"> Gender preference? </label>
-                  
+                             <div class="formbold-input-radio-wrapper">
+                              <label class="formbold-form-label"> <b class ="black">Do you have a gender preference?</b> </label>
+                              
                               <div class="formbold-radio-flex">
+                              <div class="formbold-radio-group">
+                                <label for="na" class="formbold-radio-label">
+                                  <input class="formbold-input-radio" type="radio" name="gender" id="na" value="No Preference" checked>
+                                    No preference
+                                  <span class="formbold-radio-checkmark"></span>
+                                </label>
+                              </div>
+
+                              
                                 <div class="formbold-radio-group">
-                                  <label class="formbold-radio-label">
-                                    <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                                  <label for="male" class="formbold-radio-label">
+                                    <input class="formbold-input-radio" type="radio" name="gender" id="male" value="Male">
                                     Male
                                     <span class="formbold-radio-checkmark"></span>
                                   </label>
                                 </div>
                   
                                 <div class="formbold-radio-group">
-                                  <label class="formbold-radio-label">
-                                    <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                                  <label for="female" class="formbold-radio-label">
+                                    <input class="formbold-input-radio" type="radio" name="gender" id="female" value="Female">
                                     Female
                                     <span class="formbold-radio-checkmark"></span>
                                   </label>
                                 </div>
                   
-                                <div class="formbold-radio-group">
-                                  <label class="formbold-radio-label">
-                                    <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                                      No preference
-                                    <span class="formbold-radio-checkmark"></span>
-                                  </label>
-                                </div>
+                             
                 
                                 
                               </div>
@@ -248,47 +254,41 @@
                 
                 
                           <div class="formbold-input-radio-wrapper">
-                            <label for="jobtitle" class="formbold-form-label"> Colour preference? </label>
+                            <label class="formbold-form-label"> <b class="black"> Do you have a colour preference? </b> </label>
                 
                             <div class="formbold-radio-flex">
                               <div class="formbold-radio-group">
-                                <label class="formbold-radio-label">
-                                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                                <label for="na2" class="formbold-radio-label">
+                                  <input class="formbold-input-radio" type="radio" name="colour" id="na2" Value="No preference" checked>
+                                  No preference
+                                  <span class="formbold-radio-checkmark"></span>
+                                </label>
+                              </div>
+
+                              <div class="formbold-radio-group">
+                                <label for="yellow" class="formbold-radio-label">
+                                  <input class="formbold-input-radio" type="radio" name="colour" id="yellow" value="Yellow">
                                   Yellow
                                   <span class="formbold-radio-checkmark"></span>
                                 </label>
                               </div>
                 
                               <div class="formbold-radio-group">
-                                <label class="formbold-radio-label">
-                                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                                <label for="black" class="formbold-radio-label">
+                                  <input class="formbold-input-radio" type="radio" name="colour" id="black" Value="Black">
                                   Black
                                   <span class="formbold-radio-checkmark"></span>
                                 </label>
                               </div>
                 
-                              <div class="formbold-radio-group">
-                                <label class="formbold-radio-label">
-                                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                                  Chocolate
-                                  <span class="formbold-radio-checkmark"></span>
-                                </label>
-                              </div>
-                
-                              <div class="formbold-radio-group">
-                                <label class="formbold-radio-label">
-                                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                                  No preference
-                                  <span class="formbold-radio-checkmark"></span>
-                                </label>
-                              </div>
+                           
                 
                               
                             </div>
-                        </div> -->
+                        </div>
                 
                         <div>
-                                <label for="message" class="formbold-form-label"> Location </label>
+                                <label for="message" class="formbold-form-label"> <b class="black">Where are you located?</b> </label>
                                 <textarea
                                     rows="1"
                                     name="message"
@@ -299,12 +299,12 @@
                             </div>
                 
                             <div>
-                                <label for="message" class="formbold-form-label"> About you </label>
+                                <label for="message" class="formbold-form-label"> <b class="black">Tell us about youself</b></label>
                                 <textarea
                                     rows="6"
                                     name="message"
                                     id="message"
-                                    placeholder="Tell us about yourself and the home you can provide, Please include as much information as possible. "
+                                    placeholder="Tell us about the home you can provide, Please include as much information as possible. "
                                     class="formbold-form-input"
                                 ></textarea>
                             </div>

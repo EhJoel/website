@@ -9,11 +9,8 @@ body {
 body > main {
     align-items: center;
     Padding:100 0 0 0px;
-    background-color: #faf9f6;
-    border-radius: 1rem;
-    margin-top: 20px;
-    border-bottom: solid 3px lightgray;
-    border-top: solid 1px lightgray;
+   
+ 
   
     
   
@@ -127,7 +124,7 @@ ul > li{
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 10px 0; 
   border-bottom: solid lightgray 3px;
   border-top: solid lightgray 1px;
   border-radius: 1rem;
@@ -297,6 +294,11 @@ a > H3 {
   padding: 20px;
   flex-wrap: wrap;
   min-width: 100%;
+  border-radius: 1rem;
+  margin-top: 20px;
+  border-bottom: solid 3px lightgray;
+  border-top: solid 1px lightgray;
+  background-color: #faf9f6;
 
 
 }
@@ -306,7 +308,9 @@ a > H3 {
   flex-wrap: wrap;
  
 }
-
+.black{
+  color:black
+}
 .pedigree{
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -353,7 +357,27 @@ padding: 25px 0px 25px 0px
 border-radius: 0.6rem;
 max-height: 150px;
 }
+.footerh3{
+  display: flex;
+  justify-content: center;
+}
+.footerwrap{
+  display: flex;
+  justify-content: space-evenly;
 
+}
+.credit{
+  display: flex;
+  justify-content: flex-end;
+  color: darkgray;
+  text-size-adjust: 4px;
+}
+.footerlist{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
 td {
   border: solid 1px #ddd;
@@ -426,12 +450,21 @@ width: 100%;
 .formbold-input-flex > div {
   width: 50%;
 }
+.formbold-input-flex2 {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.formbold-input-flex2 > div {
+  width: 50%;
+}
 
 .formbold-input-radio-wrapper {
   margin-bottom: 28px;
 }
 .formbold-radio-flex {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 15px;
 }
@@ -587,6 +620,17 @@ width: 100%;
 
   .pedigree{
     justify-content: flex-start;
+  }
+
+  .formbold-radio-flex {
+    flex-direction: column;
+  }
+  .formbold-input-flex2 > div {
+    width: 100%;
+  }
+  .formbold-input-flex2 {
+    flex-direction: column;
+    width: 100%;
   }
   .puppyul{
     flex-direction: column;
