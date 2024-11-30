@@ -410,6 +410,8 @@ padding: 5px;
 
 }
 
+
+
 .sidebar li {
 width: 100%;
 }
@@ -601,6 +603,9 @@ width: 100%;
   padding: 0 6px;
   width: 24.99999%;
 }
+.touchassist{
+  display: none;
+}
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -622,10 +627,19 @@ width: 100%;
 }
 
 
-@media(max-width: 600px){
+@media(max-width: 680px){
  
-
-  .pedigree{
+  .touchassist{
+    display: flex;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 30px 0;
+  }
+  .femaleh1 {
+    padding: 15px 0 0 0;
+  }
+  .pedigree {
     justify-content: flex-start;
   }
 
@@ -673,4 +687,4 @@ width: 100%;
   .sidebar{
     width: 60%;
   }
-  }
+  
