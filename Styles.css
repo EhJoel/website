@@ -359,6 +359,12 @@ a > H3 {
     max-width: 500px;
     padding: 15px 0px 10px 0px
 }
+
+.contacttext{
+  display: flex;
+  flex-direction: column;
+  
+}
 .puppypic
 {
 border-radius: 0.6rem;
