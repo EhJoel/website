@@ -659,6 +659,9 @@ width: 100%;
     flex-direction: column;
     width: 100%;
   }
+  .formbold-main-wrapper {
+    padding:  1px 1px 1px 1px;
+  }
   .puppyul{
     flex-direction: column;
   }
