@@ -445,6 +445,12 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+.footerlist2{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
 td {
   border: solid 1px #ddd;
@@ -690,11 +696,20 @@ width: 100%;
 @media(max-width: 680px){
 
   .footerwrap{
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column;
+    max-height: 120px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0;
     
   }
   .footerlist{
-    padding: 0 0 20px 0
+    padding: 0 0 0px 0;
+    
+  }
+  .footerlist2{
+    display: none;
   }
  
   .touchassist{
