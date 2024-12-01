@@ -166,7 +166,7 @@ a > H3 {
  border-radius: 0.6rem;
  text-decoration: none;
  color: black;
- gap: 10px;
+ gap: 0px;
  padding: 5px;
  
 }
@@ -238,6 +238,20 @@ a > H3 {
   
 }
 
+.button4{
+  display: flex;
+  border: solid black 0px;
+  border-radius: 0.6rem;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+}
+.button4:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 .femalelinks {
   border-radius: 0.5rem;
   max-height: 150px;
@@ -302,6 +316,18 @@ a > H3 {
 
 
 }
+
+.contact{
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  min-width: 100%;
+  border-radius: 1rem;
+  margin-top: 20px;
+  border-bottom: solid 3px lightgray;
+  border-top: solid 1px lightgray;
+  background-color: #faf9f6;
+}
 .doginfo{
   Display:flex;
   flex-direction: column;
@@ -360,9 +386,8 @@ a > H3 {
     padding: 15px 0px 10px 0px
 }
 
-.contacttext{
-  display: flex;
-  flex-direction: column;
+.contacth{
+  padding: 0 0 0.6rem 0;
   
 }
 .puppypic
@@ -377,13 +402,42 @@ max-height: 150px;
 .footerwrap{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  flex-wrap: wrap;
+  min-width: 100%;
+  border-radius: 1rem;
+  margin-top: 20px;
+  border-bottom: solid 3px lightgray;
+  border-top: solid 1px lightgray;
+  background-color: #faf9f6;
+
 
 }
+
+.profiles{
+  border-radius: 1rem;
+  margin-top: 20px;
+  border-bottom: solid 3px lightgray;
+  border-top: solid 1px lightgray;
+  background-color: #faf9f6;
+}
+
 .credit{
   display: flex;
-  justify-content: flex-end;
+  padding: 15px 0 0 0 ;
+  justify-content: center;
   color: darkgray;
-  text-size-adjust: 4px;
+  font-size: 0.8rem
+
+}
+
+.credit2{
+  padding: 0 px 0 0 ;
+  justify-content: center;
+  color: darkgray;
+  font-size: 0.8rem
 }
 .footerlist{
   display: flex;
@@ -634,6 +688,14 @@ width: 100%;
 
 
 @media(max-width: 680px){
+
+  .footerwrap{
+    flex-direction: column-reverse;
+    
+  }
+  .footerlist{
+    padding: 0 0 20px 0
+  }
  
   .touchassist{
     display: flex;
