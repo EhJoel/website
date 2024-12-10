@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>females</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <a href="Website.html" >
+              <img src="Karendalogo.png" alt="Karenda Labradors Logo">
+          </a>
+              <nav class="navman">  
+                
+                <ul class="sidebar">  
+                  <li onclick=hideSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </a> <li>
+                  <li> <a href="Website.html" class="button2">Home </a><li>
+                  <li> <a href="Females land page.html" class="button2" > Females </a> <li>
+                  <li> <a href="males.html" class="button2" > Males </a> <li>
+                  <li> <a href="puppies.html" class="button2" > Puppies </a> <li>
+                  <li> <a href="Contact Us.html" class="button2" > Contact Us </a> </li>
+              </ul>
+                  <ul>
+                      <li class="hideOnMobile"> <a href="Website.html" class="button" >Home </a><li>
+                      <li class="hideOnMobile" > <a href="Females land page.html" class="button" > Females </a> <li>
+                      <li class="hideOnMobile" > <a href="males.html" class="button" > Males </a> <li>
+                      <li class="hideOnMobile"> <a href="puppies.html" class="button" > Puppies </a> <li>
+                        <li class="hideOnMobile"> <a href="Contact Us.html" class="button" > Contact Us </a> </li>
+                      
+      
+                      <li class="menu-button" onclick=showSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a> </li>  
+                  </ul>
+              </nav>
+              </div>
+      
+              
+      
+          </header>
+      </div> 
+<div class="profiles">
+        <h1 class="femaleh1">Females</h1>
+        <span class="touchassist">Tap on a dog's picture to view its profile.</span>
+    <section class="female_ul">
+        
+            
+        <div class="button">  
+                <a href="Perry.html" class="button">
+                
+                 <img src="images/landpage 3x2/Perry.jpg" class="femalelinks" alt="Perry">
+                 <h3>Aust. Ch. Eraky Dark Horse "Perry"</h3></a>
+            </div>
+            <div class="button">  
+                <a href="Willow.html" class="button">
+            
+                <img src="images/landpage 3x2/Willow.jpg" class="femalelinks" alt="Willow">
+                <h3>Aust. Ch. Eraky Open Invitaion "Willow"</h3></a>
+            </div>
+            <div class="button">  
+            <a href="Rosa.html" class="button"> 
+            
+                <img src="images/landpage 3x2/rosa.jpg" class="femalelinks" alt="Rosa">
+                <h3>Karenda Trifecta "Rosa"</h3></a>
+            </div>
+
+                <!-- <a href="Nelly.html" class="button"> 
+            <div class="button">
+                <img src="images/landpage 3x2/Nelly.jpeg" class="femalelinks" alt="Nelly">
+                <h3>Karenda Replay "Nelly"</h3></a>
+            </div> -->
+
+            
+            <div class="button">  
+            <a href="Susie.html" class="button"> 
+            
+                <img src="images/landpage 3x2/Susie1.jpg" class="femalelinks" alt="Susie">
+                <h3>Eraky Postal Vote "Susie"</h3></a>
+            </div>
+            <div class="button">  
+            <a href="Annie.html" class="button">
+            
+                <img src="images/landpage 3x2/annie1.jpg" class="femalelinks" alt="Annie">
+                <h3>Labraddell Miss dreamer "Annie"</h3></a>
+            </div>
+
+        
+    </section>
+</div>
+    <footer>
+
+        <div class="footerwrap">
+    
+          <ul class="footerlist">
+            <li> <a href="Website.html" class="button4">Home </a><li>
+              <li> <a href="Females land page.html" class="button4" > Females </a> <li>
+              <li> <a href="males.html" class="button4" > Males </a> <li>
+              <li> <a href="puppies.html" class="button4" > Puppies </a> <li>
+              <li> <a href="Contact Us.html" class="button4" > Contact Us </a> </li>
+    
+            
+          </ul>
+    
+          <ul class="footerlist2">
+            <li> Follow Karenda Labradors on</li>
+            <li> <a href="https://www.facebook.com/profile.php?id=61560965918079"> Facebook</a></li>
+    
+    
+          </ul>
+    
+    
+        </div> 
+    
+    <span class="credit" > Website created by <a class="credit2" href="https://au.linkedin.com/in/joel-snell-075b93162"> Joel Snell</a></span> 
+    <span class="credit" > © 2024 Copyright Karenda Labradors </span>
+    
+    </footer> 
+    
+    <script>
+        function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+        }
+        
+        
+          </script>
+</body>
+</html>
