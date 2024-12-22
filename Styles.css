@@ -76,7 +76,7 @@ justify-content: center;
 
 .picexp{
   border-radius: 0.6rem;
-  max-width: 500px;
+  max-width: 450px;
   width: 100%;
   object-fit: contain;
   margin: 25px;
@@ -383,7 +383,22 @@ a > H3 {
     flex-direction: column;
     text-align: center;
     max-width: 500px;
-    padding: 15px 0px 10px 0px
+    padding: 15px 0px 10px 0px;
+    list-style: none;
+}
+.stacked{
+  display: flex;
+  flex-direction: column;
+}
+
+.matings{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 500px;
+  padding: 15px 0px 10px 0px
+
 }
 
 .contacth{
