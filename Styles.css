@@ -29,6 +29,12 @@ header{
     
 }
 
+.border{
+  border: solid 2px;
+  border-radius: 0.6rem;
+  margin: 15px 15px 0 15px;
+}
+
 
 header > a > img {
     max-height: 90px;
