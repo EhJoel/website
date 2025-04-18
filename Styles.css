@@ -214,6 +214,19 @@ a > H3 {
   padding: 10px;
  }
 
+ .gallery2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 10px 0 10px 0;
+  border-bottom: solid lightgray 3px;
+  border-top: solid lightgray 1px;
+  border-radius: 1rem;
+  background-color: #faf9f6;
+  margin: 50px 0 50px 0;
+ }
+
  .button3{
   display: flex;
   justify-content: center;
